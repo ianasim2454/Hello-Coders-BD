@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Hello Coders</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/1.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Vendor CSS Files -->
+
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/lodader.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: eNno - v4.7.0
+  * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <style></style>
+  </head>
+
+  <body onload="loading()">
+    
+    <div class="loder">
+      <div class="loderitem loderitem-1"></div>
+      <div class="loderitem loderitem-2"></div>
+      <div class="loderitem loderitem-3"></div>
+      <div class="loderitem loderitem-4"></div>
+    </div>
+
+    <div id="mainPanel" style="display: none">
+      <!-- ======= Header ======= -->
+      <header id="header" class="fixed-top">
+        <div
+          class="container d-flex align-items-center justify-content-between"
+        >
+          <h1 class="logo">
+            <a href="index.html">
+              <span style="color: #00a1c4">He</span>//<span
+                style="color: #00a1c4"
+                >o</span
+              >
+              <span class="text-danger">Coders BD</span>
+            </a>
+          </h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+              <!-- <li><a class="nav-link scrollto" href="courses.html">Course</a></li> -->
+              <li>
+                <a class="nav-link scrollto" href="services.html">Services</a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="aboutMain.html">About</a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="carrer.html">Career</a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="contactMain.html">Contact</a>
+              </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+          <!-- .navbar -->
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- ====MOdel for video -->
+      <style>
+        .maintain{
+        right: 12px;
+        top: 10px;
+        position: absolute;
+        }
+        .popup_edit{
+          padding: 10px;
+          background:#163647;
+        }
+        @media only screen and (max-width: 991px) {
+          .maintain{
+            top: 50px;
+          }
+        }
+      </style>
+      <div
+        class="modal fade "
+        id="exampleModal"
+        tabindex="1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+      <button type="button" class="btn-close maintain" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog modal-dialog-centered modal-lg" >
+          <div class="modal-content popup_edit ">
+            <video controls>
+              <source src="./assets/video/ContentVideo.mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======= Hero Section ======= -->
+      <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
+            >
+              <h1>
+                <span class="typed" data-typed-items="Hello Coders BD"></span>
+              </h1>
+              <h2>Software Smart Solution</h2>
+              <div class="d-flex">
+                <a href="#about" class="btn-get-started scrollto"
+                  >Get Started</a
+                >
+                <div
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  class="btn-watch-video"
+                >
+                  <i class="bi bi-play-circle"></i><span>Watch Video</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src="assets/img/hero-img1.png" class="img-fluid animated" alt="">
+        </div> -->
+
+            <!--  -->
+
+            <div
+              class="col-lg-6 order-1 order-lg-2 hero-img"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              <img
+                src="assets/img/hero-img1.png"
+                class="img-fluid animated"
+                alt=""
+              />
+            </div>
+
+            <!--  -->
+          </div>
+        </div>
+      </section>
+      <!-- End Hero -->
+
+      <main id="main">
+        <!-- ======= Featured Services Section ======= -->
+
+        <!-- End Featured Services Section -->
+
+        <!-- ======= Clients Section ======= -->
+        <style>
+          /*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+          .clients .clients-slider .swiper-slide img {
+            opacity: 0.5;
+            transition: 0.1s;
+          }
+
+          .clients .clients-slider .swiper-slide img:hover {
+            opacity: 1;
+          }
+
+          .clients .clients-slider .swiper-pagination {
+            margin-top: 20px;
+            position: relative;
+          }
+
+          .clients
+            .clients-slider
+            .swiper-pagination
+            .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background-color: #fff;
+            opacity: 1;
+            border: 1px solid #00000061;
+          }
+
+          .clients
+            .clients-slider
+            .swiper-pagination
+            .swiper-pagination-bullet-active {
+            background-color: #000d31ad;
+          }
+        </style>
+
+        <!-- start Technology Section -->
+        <section class="clients" class="clients-slider section-bg">
+          <div class="container">
+            <div class="section-title">
+              <!-- <span>Technology</span> -->
+              <h2>Our Technology</h2>
+              <p>
+                We use various technologies to make your software attractive.
+              </p>
+            </div>
+
+            <div class="clients-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img
+                    src="assets/img/technology/jquery.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/img/technology/vue.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/img/technology/angular.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/img/technology/laravel1.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/img/technology/node.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/img/technology/mysql.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/img/technology/mongo.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="assets/img/technology/net1.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+        <!-- End Clients Section -->
+
+        <!-- ======= About Section ======= -->
+
+        <!-- End About Section -->
+
+        <!-- new add  satrt-->
+
+        <style>
+          .features .nav-tabs {
+            border: 0;
+          }
+
+          .features .nav-link {
+            border: 0;
+            padding: 25px 20px;
+            color: var(--color-secondary);
+            box-shadow: 5px 5px 25px rgba(var(--color-secondary-rgb), 0.15);
+            border-radius: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            transition: 0s;
+            cursor: pointer;
+            height: 100%;
+          }
+
+          .features .nav-link i {
+            font-size: 32px;
+            line-height: 0;
+          }
+
+          .features .nav-link h4 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 10px 0 0 0;
+            color: var(--color-secondary);
+          }
+
+          .features .nav-link:hover {
+            color: var(--color-primary);
+          }
+
+          .features .nav-link.active {
+            transition: 0.3s;
+            background: var(--color-secondary)
+              linear-gradient(
+                rgba(var(--color-primary-rgb), 0.95),
+                rgba(var(--color-primary-rgb), 0.6)
+              );
+            border-color: var(--color-primary);
+          }
+
+          .features .nav-link.active h4 {
+            color: var(--color-white);
+          }
+
+          .features .nav-link.active i {
+            color: var(--color-white) !important;
+          }
+
+          .features .tab-content {
+            margin-top: 30px;
+          }
+
+          .features .tab-pane.active {
+            -webkit-animation: fadeIn 0.5s ease-out;
+            animation: fadeIn 0.5s ease-out;
+          }
+
+          .features .tab-pane h3 {
+            font-weight: 600;
+            font-size: 36px;
+            color: var(--color-secondary);
+          }
+
+          .features .tab-pane ul {
+            list-style: none;
+            padding: 0;
+          }
+
+          .features .tab-pane ul li {
+            padding-bottom: 10px;
+          }
+
+          .features .tab-pane ul i {
+            font-size: 24px;
+            margin-right: 4px;
+            color: var(--color-primary);
+          }
+
+          .features .tab-pane p:last-child {
+            margin-bottom: 0;
+          }
+
+          @keyframes fadeIn {
+            0% {
+              opacity: 0;
+            }
+
+            100% {
+              opacity: 1;
+            }
+          }
+        </style>
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <!-- <span>Technology</span> -->
+              <h2>Our Services</h2>
+            </div>
+
+            <div class="row gy-5">
+              <div
+                class="col-xl-4 col-md-6"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+              >
+                <div class="service-item">
+                  <div class="img">
+                    <img
+                      src="assets/img/services-1.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="details">
+                    <a
+                      href="http://www.hellocodersbd.com"
+                      class="stretched-link"
+                    >
+                      <h3>Website Development</h3>
+                      <i class="fs-3 fa-sharp fa-solid fa-eye"></i>
+                    </a>
+                    <p>
+                      A website can represent your business identity we can
+                      develop it according to the motive of your business.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div
+                class="col-xl-4 col-md-6"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <div class="service-item">
+                  <div class="img">
+                    <img
+                      src="assets/img/services-2.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="details">
+                    <a href="#" class="stretched-link">
+                      <h3>E-Commerce</h3>
+                      <i class="fs-3 fa-sharp fa-solid fa-eye"></i>
+                    </a>
+                    <p>
+                      We have readymade eCommerce software solutions as well as
+                      develop the eCommerce solution based on your demand.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div
+                class="col-xl-4 col-md-6"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <div class="service-item">
+                  <div class="img">
+                    <img
+                      src="assets/img/services-3.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="details">
+                    <a href="#" class="stretched-link">
+                      <h3>Blogging Platform</h3>
+                      <i class="fs-3 fa-sharp fa-solid fa-eye"></i>
+                    </a>
+                    <p>
+                      We can develop an SEO-friendly content management system
+                      to publish blogs, articles, online news, and so on.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div
+                class="col-xl-4 col-md-6"
+                data-aos="zoom-in"
+                data-aos-delay="500"
+              >
+                <div class="service-item">
+                  <div class="img">
+                    <img
+                      src="assets/img/services-4.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="details">
+                    <a href="#" class="stretched-link">
+                      <h3>ERP</h3>
+                      <i class="fs-3 fa-sharp fa-solid fa-eye"></i>
+                    </a>
+                    <p>
+                      ERP is a business management software. It is a suite of
+                      integrated application that helps users to store and
+                      manage data of their business.
+                    </p>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div
+                class="col-xl-4 col-md-6"
+                data-aos="zoom-in"
+                data-aos-delay="600"
+              >
+                <div class="service-item">
+                  <div class="img">
+                    <img
+                      src="assets/img/services-5.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="details">
+                    <a href="#" class="stretched-link">
+                      <h3>Web Designing</h3>
+                      <i class="fs-3 fa-sharp fa-solid fa-eye"></i>
+                    </a>
+                    <p>
+                      Cumque et suscipit saepe. Est maiores autem enim facilis
+                      ut aut ipsam corporis aut. Sed animi at autem alias eius
+                      labore.
+                    </p>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div
+                class="col-xl-4 col-md-6"
+                data-aos="zoom-in"
+                data-aos-delay="700"
+              >
+                <div class="service-item">
+                  <div class="img">
+                    <img
+                      src="assets/img/services-6.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="details">
+                    <a href="#" class="stretched-link">
+                      <h3>Multi Vendor E-Commerce</h3>
+                      <i class="fs-3 fa-sharp fa-solid fa-eye"></i>
+                    </a>
+                    <p>
+                      multi vendor marketplaces is a great way to manage all
+                      aspects of the website. You can manage products, vendors,
+                      and commissions right from the dashboard without involving
+                      your developer or every minor adjustment.
+                    </p>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Service Item -->
+            </div>
+          </div>
+        </section>
+        <!-- End Services Section -->
+
+        <style>
+          .mySwiper {
+            margin-left: 60px;
+            margin-right: 60px;
+            height: 280px;
+          }
+          .swiper-slide {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 10px 10px 100px 10px #eeeeee;
+          }
+
+          .swiper-button-prev {
+            font-size: small !important;
+          }
+
+          .team_card {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+
+          .member-info h5 {
+            margin-top: 20px;
+            font-size: 1 rem;
+          }
+          .member-info span {
+            font-size: 0.8 rem;
+          }
+          .swiper .swiper-wrapper .swiper-slide .team_card .member img {
+            filter: grayscale(100%);
+            transition: all 0.3s ease-in-out;
+          }
+          .swiper .swiper-wrapper .swiper-slide .team_card .member:hover img {
+            filter: none;
+            transform: scale(1.2);
+            transition: transform 1s;
+          }
+          .social .icon {
+            color: rgb(34, 147, 176);
+          }
+          .social .icon:hover {
+            color: rgb(236, 23, 15);
+          }
+        </style>
+
+        <!-- update work 01 start -->
+        <div class="section-title">
+          <!-- <span>Technology</span> -->
+          <h2>TEAM MEMBERS</h2>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="team_card">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img
+                      src="assets/img/team/kamrul.jpg"
+                      class="team_img img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h5>Kamrul Hassan</h5>
+                    <span>Chief Executive Officer</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="icon bi bi-twitter"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-facebook"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="team_card">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img
+                      src="assets/img/team/imran.JPG"
+                      class="team_img img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h5>Shawn Imran</h5>
+                    <span>Chief Executive Officer</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="icon bi bi-twitter"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-facebook"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="team_card">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img
+                      src="assets/img/team/nasim.jpg"
+                      class="team_img img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h5>Izaz Ahmmed Nasim</h5>
+                    <span>Web Developer</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="icon bi bi-twitter"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-facebook"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="team_card">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img
+                      src="assets/img/team/KhanAwsafurRahman.jpg"
+                      class="team_img img-fluid"
+                      alt=""
+                      style="object-fit: cover"
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h5>Khan Awsafur Rahman</h5>
+                    <span>Web Developer</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="ms-2 icon bi bi-twitter"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-facebook"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="team_card">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img
+                      src="assets/img/team/team-1.jpg"
+                      class="team_img img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h5>Redwan Pramanik</h5>
+                    <span>Chief Executive Officer</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="ms-2 icon bi bi-twitter"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-facebook"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="team_card">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img
+                      src="assets/img/team/farzana.png"
+                      class="team_img img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="member-info">
+                    <h5>Farjana</h5>
+                    <span>Admin, HR</span>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="ms-2 icon bi bi-twitter"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-facebook"></i></a>
+                    <a href=""><i class="ms-2 icon bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- End Team Section -->
+      </main>
+      <!-- End #main -->
+      <style>
+        ul {
+          margin: 0px;
+          padding: 0px;
+        }
+        .footer-section {
+          background: #f0f0ff;
+          position: relative;
+        }
+        .footer-cta {
+          border-bottom: 1px solid #373636;
+        }
+        .single-cta i {
+          color: #ff5e14;
+          font-size: 30px;
+          float: left;
+          margin-top: 8px;
+        }
+        .cta-text {
+          padding-left: 15px;
+          display: inline-block;
+        }
+        .cta-text h4 {
+          color: #00a1c4;
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 2px;
+        }
+        .cta-text span {
+          color: #757575;
+          font-size: 15px;
+        }
+        .footer-content {
+          position: relative;
+          z-index: 2;
+        }
+        .footer-pattern img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 330px;
+          background-size: cover;
+          background-position: 100% 100%;
+        }
+        .footer-logo {
+          margin-bottom: 5px;
+        }
+        .footer-logo img {
+          max-width: 200px;
+        }
+        .footer-text p {
+          text-align: center;
+          margin-bottom: 14px;
+          font-size: 14px;
+          color: #7e7e7e;
+          line-height: 28px;
+        }
+        .footer-social-icon span {
+          color: #00a1c4;
+          display: block;
+          font-size: 20px;
+          font-weight: 700;
+          font-family: "Poppins", sans-serif;
+          margin-bottom: 5px;
+        }
+        .footer-social-icon a {
+          color: #fff;
+          font-size: 10px;
+          margin-right: 15px;
+        }
+        .footer-social-icon i {
+          height: 30px;
+          width: 30px;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 50%;
+        }
+        .facebook-bg {
+          background: #3b5998;
+        }
+        .twitter-bg {
+          background: #55acee;
+        }
+        .google-bg {
+          background: #dd4b39;
+        }
+        .footer-widget-heading h3 {
+          color: #00a1c4;
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 40px;
+          position: relative;
+        }
+        .footer-widget-heading h3::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -15px;
+          height: 2px;
+          width: 50px;
+          background: #ff5e14;
+        }
+        .footer-widget ul li {
+          display: inline-block;
+          width: 50%;
+          margin-bottom: 5px;
+        }
+        .footer-widget ul li a:hover {
+          color: #ff5e14;
+        }
+        .footer-widget ul li a {
+          color: #878787;
+          text-transform: capitalize;
+        }
+        .subscribe-form {
+          position: relative;
+          overflow: hidden;
+        }
+        .subscribe-form input {
+          width: 100%;
+          padding: 14px 28px;
+          background: #2e2e2e;
+          border: 1px solid #2e2e2e;
+          color: #fff;
+        }
+        .subscribe-form button {
+          position: absolute;
+          right: 0;
+          background: #00a1c4;
+          padding: 13px 20px;
+          border: 1px solid #00a1c4;
+          top: 0;
+        }
+        .subscribe-form button i {
+          color: #fff;
+          font-size: 22px;
+          transform: rotate(-6deg);
+        }
+        .copyright-area {
+          background: #202020;
+          padding: 25px 0;
+        }
+        .copyright-text p {
+          margin: 0;
+          font-size: 14px;
+          color: #878787;
+        }
+        .copyright-text p a {
+          color: #ff5e14;
+        }
+        .footer-menu li {
+          display: inline-block;
+          margin-left: 20px;
+        }
+        .footer-menu li:hover a {
+          color: #ff5e14;
+        }
+        .footer-menu li a {
+          font-size: 14px;
+          color: #878787;
+        }
+      </style>
+      <!-- ======= Footer ======= -->
+      <footer class="footer-section mt-5">
+        <div class="container">
+          <div class="footer-cta pt-3 pb-3">
+            <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-map-marker-alt text-danger"></i>
+                  <div class="cta-text">
+                    <h4>Find us</h4>
+                    <span>Dhamrai,dhaka 1350</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="fas fa-phone text-danger"></i>
+                  <div class="cta-text">
+                    <h4>Call us</h4>
+                    <span>01307450464</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                  <i class="far fa-envelope-open text-danger"></i>
+                  <div class="cta-text">
+                    <h4>Mail us</h4>
+                    <span>hellocoders.info@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-content pt-3 pb-3">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-logo">
+                    <a
+                      style="
+                        font-size: 42px;
+                        color: #00a1c4;
+                        font-family: 'Lato', sans-serif;
+                      "
+                      href="index.html"
+                      >He<span style="color: #5f687b">//</span>o
+                      <span class="text-danger" style="font-weight: 700"
+                        >Coders BD</span
+                      ></a
+                    >
+                  </div>
+                  <div class="footer-text text-left">
+                    <p class="text-left">
+                      When you have software issues, we are here to help. We are
+                      commited to provide the finest possible solution.
+                    </p>
+                  </div>
+                  <div class="footer-social-icon">
+                    <span>Follow us</span>
+                    <a href="#"
+                      ><i class="fab fa-facebook-f facebook-bg"></i
+                    ></a>
+                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                    <a href="#"
+                      ><i class="fab fa-google-plus-g google-bg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                    <h3>Useful Links</h3>
+                  </div>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Expert Team</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                  <div class="footer-widget-heading">
+                    <h3>Subscribe</h3>
+                  </div>
+                  <div class="footer-text mb-25">
+                    <p>
+                      Don’t miss to subscribe to our new feeds, kindly fill the
+                      form below.
+                    </p>
+                  </div>
+                  <div class="subscribe-form">
+                    <form action="#">
+                      <input type="text" placeholder="Email Address" />
+                      <button><i class="fab fa-telegram-plane"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                <div class="copyright-text">
+                  <p>
+                    Copyright &copy; 2024, All Right Reserved
+                    <a class="text-danger">Hello Coders BD</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                <div class="footer-menu">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+
+      <a
+        href="#"
+        class="back-to-top d-flex align-items-center justify-content-center"
+        ><i class="bi bi-arrow-up-short"></i
+      ></a>
+    </div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      // for loading
+      const loading = () => {
+        const myVar = setTimeout(showLoder, 2500);
+      };
+      function showLoder() {
+        document.querySelector(".loder").style.display = "none";
+        document.getElementById("mainPanel").style.display = "block";
+      }
+      // for team
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        // slidesPerGroup: 4,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loopFillGroupWithBlank: true,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+
+    <script>
+      var $videoSrc;
+      $(".btn-play").click(function () {
+        $videoSrc = $(this).data("src");
+      });
+      console.log($videoSrc);
+      $("#videoModal").on("shown.bs.modal", function (e) {
+        $("#video").attr(
+          "src",
+          $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+        );
+      });
+      $("#videoModal").on("hide.bs.modal", function (e) {
+        $("#video").attr("src", $videoSrc);
+      });
+    </script>
+  </body>
+</html>
